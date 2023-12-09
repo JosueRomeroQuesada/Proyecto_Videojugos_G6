@@ -15,7 +15,7 @@ E:/Descargas/ProyectoG6/ProyectoG6
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-56913
+58940
 Successfully changed project path to: E:/Descargas/ProyectoG6/ProyectoG6
 E:/Descargas/ProyectoG6/ProyectoG6
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ E:/Descargas/ProyectoG6/ProyectoG6
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1560] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 1603503353 [EditorId] 1603503353 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BAHVHBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24168] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 2978419943 [EditorId] 2978419943 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BAHVHBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1560] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 1603503353 [EditorId] 1603503353 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BAHVHBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24168] Host "[IP] 192.168.1.11 [Port] 0 [Flags] 2 [Guid] 2978419943 [EditorId] 2978419943 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-BAHVHBI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 174.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 192.26 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.31f1 (3409e2af086f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Resources/UnitySubsystems
@@ -68,90 +68,107 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.31f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.199996 seconds.
+Registered in 0.007501 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 176.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 170.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 11.441 seconds
+- Completed reload, in  1.099 seconds
 Domain Reload Profiling:
-	ReloadAssembly (11442ms)
-		BeginReloadAssembly (8895ms)
+	ReloadAssembly (1100ms)
+		BeginReloadAssembly (164ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1708ms)
-			LoadAssemblies (8899ms)
+		EndReloadAssembly (771ms)
+			LoadAssemblies (160ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1045ms)
+			SetupTypeCache (184ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (527ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (470ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (177ms)
+				RefreshPlugins (171ms)
 				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (233ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007989 seconds.
+Registered in 0.005685 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 181.11 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 167.59 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in 11.508 seconds
+- Completed reload, in  3.433 seconds
 Domain Reload Profiling:
-	ReloadAssembly (11510ms)
-		BeginReloadAssembly (688ms)
+	ReloadAssembly (3434ms)
+		BeginReloadAssembly (255ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (15ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (10259ms)
-			LoadAssemblies (7847ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2981ms)
+			LoadAssemblies (202ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1131ms)
+			SetupTypeCache (486ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (131ms)
-			SetupLoadedEditorAssemblies (1514ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (2173ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (181ms)
+				RefreshPlugins (168ms)
 				BeforeProcessingInitializeOnLoad (183ms)
-				ProcessInitializeOnLoadAttributes (949ms)
-				ProcessInitializeOnLoadMethodAttributes (181ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (1577ms)
+				ProcessInitializeOnLoadMethodAttributes (224ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5294 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (0.7 MB). Loaded Objects now: 5745.
-Memory consumption went from 208.3 MB to 207.6 MB.
-Total: 5.411300 ms (FindLiveObjects: 0.516800 ms CreateObjectMapping: 0.185600 ms MarkObjects: 4.177200 ms  DeleteObjects: 0.529700 ms)
+Unloading 5298 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (0.7 MB). Loaded Objects now: 5750.
+Memory consumption went from 208.6 MB to 207.9 MB.
+Total: 23.664700 ms (FindLiveObjects: 0.687400 ms CreateObjectMapping: 0.739200 ms MarkObjects: 21.813600 ms  DeleteObjects: 0.423200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,857 +185,161 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 156853.741595 seconds.
-  path: Assets/Sprites/Characters/PSD/Soldier_1_Spritelist.psd
-  artifactKey: Guid(e2e4e1ad02378aa4e9631f5c460b5b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 160261.151630 seconds.
+  path: Assets/Animations/Soldier/Enemy/Soldier.controller
+  artifactKey: Guid(3f82088455420ab45ab3519c01d5a6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/PSD/Soldier_1_Spritelist.psd using Guid(e2e4e1ad02378aa4e9631f5c460b5b4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba910df0510e3ea34c7f99f7030b865f') in 0.282655 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 984.627249 seconds.
-  path: Assets/Sprites/Characters/Soldier_3/Attacck.png
-  artifactKey: Guid(dd8c5a853e99dce4ca9ed516713f68d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/Soldier_3/Attacck.png using Guid(dd8c5a853e99dce4ca9ed516713f68d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0020e2cee70d65b7242a9e863749900b') in 0.081802 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sprites/Tilesets/Background/Background_01.png
-  artifactKey: Guid(44e60811a6fd51740af95c0a66ae4479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Background/Background_01.png using Guid(44e60811a6fd51740af95c0a66ae4479) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3150a90c264c3a1753715a7b6c258ea7') in 0.167289 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 668.744804 seconds.
-  path: Assets/Scenes/Level 1.unity
-  artifactKey: Guid(39430c858d1c08543b70f04a446ea639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Level 1.unity using Guid(39430c858d1c08543b70f04a446ea639) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'edaee4d6d4ae496f3287b2b00e7a5b15') in 0.360905 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Ladder.png
-  artifactKey: Guid(27b06ecc8b90eab469a050923d093582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Ladder.png using Guid(27b06ecc8b90eab469a050923d093582) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '698cbc033a5e7ece96dfd6262a38db3b') in 0.167174 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Sprites/Tilesets/Collectable Object/Star.png
-  artifactKey: Guid(1902826eaceae674eb202afb4f29f32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Collectable Object/Star.png using Guid(1902826eaceae674eb202afb4f29f32e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'baca1cfebd3d0aa0555ba5eb9ce6807a') in 0.076041 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Brick_02.png
-  artifactKey: Guid(9d5639e82de236649b17ada9b4f751c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Brick_02.png using Guid(9d5639e82de236649b17ada9b4f751c4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'dfee3a30c9468b53904f0dadb9939468') in 0.083210 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Sprites/Tilesets/Environment/Decor_Rock_02.png
-  artifactKey: Guid(738983ff0af52ad4c9ddf91d911fb93c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Environment/Decor_Rock_02.png using Guid(738983ff0af52ad4c9ddf91d911fb93c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '31a8ca63a92db03f6056b0a40363057f') in 0.077177 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Scenes/Level 2.unity
-  artifactKey: Guid(e45ea6bd56ac986409d00ef5b2138546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Scenes/Level 2.unity using Guid(e45ea6bd56ac986409d00ef5b2138546) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3de43c8b505355ccddbde2f2fec1582f') in 0.022853 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Sprites/Tilesets/Environment/Rift.png
-  artifactKey: Guid(3b4cb9a0a6d5d35428773a24f5d3c3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Environment/Rift.png using Guid(3b4cb9a0a6d5d35428773a24f5d3c3b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '55551f53e301b7adb8faec8993105747') in 0.087126 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000098 seconds.
-  path: Assets/Sprites/Tilesets/Collectable Object/Key_02.png
-  artifactKey: Guid(d7b49b9339bf1464d938230cb0fefa2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Collectable Object/Key_02.png using Guid(d7b49b9339bf1464d938230cb0fefa2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd13b1ae142a9cf4bca65e2f0e21ef091') in 0.079859 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Ground-Additional_06.png
-  artifactKey: Guid(619045093128b4c439e6362c7afd2f98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Ground-Additional_06.png using Guid(619045093128b4c439e6362c7afd2f98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9136e3e7ddc2286d46afd49fd3dd3ac1') in 0.090025 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/Sprites/Characters/png/1/attack1/1_police_attack_Attack1_001.png
-  artifactKey: Guid(d55cf23858dd3c8409e7fb1d27a0b5ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/attack1/1_police_attack_Attack1_001.png using Guid(d55cf23858dd3c8409e7fb1d27a0b5ca) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '289c8b544ce0b2daa697041e9d6acdbc') in 0.062176 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Sprites/Tilesets/Collectable Object/Key_01.png
-  artifactKey: Guid(06427a534226bdd4686976417b0c9870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Collectable Object/Key_01.png using Guid(06427a534226bdd4686976417b0c9870) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e68ff9e67cd888c7aca97f9c40293946') in 0.146018 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
-  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b0c2e2c67917f66a23350cddf7eb6645') in 0.237153 seconds 
+Start importing Assets/Animations/Soldier/Enemy/Soldier.controller using Guid(3f82088455420ab45ab3519c01d5a6a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b297e53a3cc8da7ade94f8dd340be456') in 0.049192 seconds 
 Number of asset objects unloaded after import = 4
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000068 seconds.
-  path: Assets/Sprites/Characters/png/1/attack1/1_police_attack_Attack1_008.png
-  artifactKey: Guid(56b89c8308af52e4992253a39ee8b2b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/attack1/1_police_attack_Attack1_008.png using Guid(56b89c8308af52e4992253a39ee8b2b3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5f5af76a8e2aa0b44cf26a334bca8926') in 0.072241 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Ground-Additional_04.png
-  artifactKey: Guid(12a3723b5f4adf74b892b93c8bb21335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Ground-Additional_04.png using Guid(12a3723b5f4adf74b892b93c8bb21335) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6c899bbc24f39e3a9bbc74c7c609b2db') in 0.868838 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Tilesets/Collectable Object/Bubble.png
-  artifactKey: Guid(628b6e3fed9bf714ca2d1c5977a3d9d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Collectable Object/Bubble.png using Guid(628b6e3fed9bf714ca2d1c5977a3d9d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f7bb8de20a058c4f864ac0ba7124cd39') in 0.115870 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Bonus.png
-  artifactKey: Guid(f96ae8bbe3f6d5b488090011efc0b8bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Bonus.png using Guid(f96ae8bbe3f6d5b488090011efc0b8bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '519a0780881cd5687057de758c1af23c') in 0.074404 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/Characters/png/1/attack1/1_police_attack_Attack1_000.png
-  artifactKey: Guid(a14f5302c7aeff647af89cf47da75a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/attack1/1_police_attack_Attack1_000.png using Guid(a14f5302c7aeff647af89cf47da75a6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd90b577ceb8d3c4089bc1f932a890850') in 0.070316 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Ground-Additional_07.png
-  artifactKey: Guid(e4d96e3b234457f4e89f4988047b1b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Ground-Additional_07.png using Guid(e4d96e3b234457f4e89f4988047b1b2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0a387f9405452b18a30e7c9247125d54') in 0.068113 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Characters/png/1/attack2/1_police_attack_Attack2_002.png
-  artifactKey: Guid(65df19225c813cb4681eabf0ed712fad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/attack2/1_police_attack_Attack2_002.png using Guid(65df19225c813cb4681eabf0ed712fad) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9462d50e9a6b14ffc87945ba1070eb21') in 0.054794 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Sprites/Characters/png/1/attack3/1_police_attack_Attack3_004.png
-  artifactKey: Guid(330b7c41d8ed6204d8bb084c4c03be1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/attack3/1_police_attack_Attack3_004.png using Guid(330b7c41d8ed6204d8bb084c4c03be1d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '13944823bf34b7a6a070fde7404a2aec') in 0.053382 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Sprites/Characters/png/1/attack2/1_police_attack_Attack2_003.png
-  artifactKey: Guid(b52b59d81210ab8429b8c7a493bef873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/attack2/1_police_attack_Attack2_003.png using Guid(b52b59d81210ab8429b8c7a493bef873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '388c07373b797a5383fb87a22dd9016f') in 0.050913 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Animations/Soldier/Enemy/Soldier.controller
-  artifactKey: Guid(3f82088455420ab45ab3519c01d5a6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Animations/Soldier/Enemy/Soldier.controller using Guid(3f82088455420ab45ab3519c01d5a6a4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9315f48ce295fad44b9684dd8ba3b5a3') in 0.027150 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/Tilesets/Collectable Object/Chest_02_Locked.png
-  artifactKey: Guid(e24005eca35434942adcb2b1c0ecd6ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Collectable Object/Chest_02_Locked.png using Guid(e24005eca35434942adcb2b1c0ecd6ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '3a77d72e28ac2391eb885dc13fc32d99') in 0.072165 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Decor_Brick.png
-  artifactKey: Guid(25c2c98a99a019945a6bac10c009065d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Decor_Brick.png using Guid(25c2c98a99a019945a6bac10c009065d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b9c6b7fa8919e157f92d76c87ce0bbfd') in 0.056830 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/TIletsets/Inferno/Ground_12.asset
-  artifactKey: Guid(ecd3386b2e817f045a95a9cb600cda47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TIletsets/Inferno/Ground_12.asset using Guid(ecd3386b2e817f045a95a9cb600cda47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4804a578bccf5d64ba4dd07d5a443fd4') in 0.067605 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Sprites/Characters/png/1/hurt/1_police_Hurt_007.png
-  artifactKey: Guid(deeea6fe6c80e964c9ac4676228aac12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/hurt/1_police_Hurt_007.png using Guid(deeea6fe6c80e964c9ac4676228aac12) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ba43488aa83f50e955972035748ab474') in 0.074503 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sprites/Characters/png/1/jump/1_police_Jump_000.png
-  artifactKey: Guid(df0d1035e4791dc4ebf7095ca9d6391c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/jump/1_police_Jump_000.png using Guid(df0d1035e4791dc4ebf7095ca9d6391c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '55a1be262452b9440aabd67853233718') in 0.057887 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Tilesets/Environment/Rock_02.png
-  artifactKey: Guid(14e7c403455d4eb49a8de4fcec3848b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Environment/Rock_02.png using Guid(14e7c403455d4eb49a8de4fcec3848b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4a5137fe15d00f8dfb37af780f0a07a1') in 0.725962 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Sprites/Characters/png/1/jump/1_police_Jump_004.png
-  artifactKey: Guid(16d38eff770340948896690d42a4d570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/jump/1_police_Jump_004.png using Guid(16d38eff770340948896690d42a4d570) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '87e23e1f72223453c4aacc16fee7229b') in 0.052809 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/Sprites/Characters/png/1/jump/1_police_Jump_002.png
-  artifactKey: Guid(9b0252348bb0b904f820da12d3ef195c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/jump/1_police_Jump_002.png using Guid(9b0252348bb0b904f820da12d3ef195c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9865beeaa2434351bdbc059fece232d4') in 0.047846 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Sprites/Tilesets/Collectable Object/Coin_01.png
-  artifactKey: Guid(44c14a9d35d25e2479d117c7c02678f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Collectable Object/Coin_01.png using Guid(44c14a9d35d25e2479d117c7c02678f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '89e566198b065cb8d533e6f87f26efc2') in 0.164426 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000085 seconds.
-  path: Assets/Sprites/Characters/png/1/attack3/1_police_attack_Attack3_002.png
-  artifactKey: Guid(1295cc68aa72a9d46926ff9931256da2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/attack3/1_police_attack_Attack3_002.png using Guid(1295cc68aa72a9d46926ff9931256da2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '02b9098654b5f810746469eb9f202e33') in 0.056914 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/Characters/png/1/walk/1_police_Walk_000.png
-  artifactKey: Guid(bf011114e58f4444697bd5db06975f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/walk/1_police_Walk_000.png using Guid(bf011114e58f4444697bd5db06975f10) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2d4e1685588e35a2c0999ef213c6c755') in 0.050450 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Sprites/Characters/png/1/run/1_police_Run_005.png
-  artifactKey: Guid(3d31b0210653f314a8897520bfd38efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/run/1_police_Run_005.png using Guid(3d31b0210653f314a8897520bfd38efe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'db426a80a3777d1328c13482fa06e724') in 0.058692 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/Sprites/Tilesets/Collectable Object/Coin_02.png
-  artifactKey: Guid(7abc1566ece5e1d47ad5cb4625dbc9ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Collectable Object/Coin_02.png using Guid(7abc1566ece5e1d47ad5cb4625dbc9ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '4be52648b06908ccfc91ecedf3fc84db') in 0.540238 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/Sprites/Characters/png/1/hurt/1_police_Hurt_005.png
-  artifactKey: Guid(589c037238616aa41bfc2819d1e57659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/hurt/1_police_Hurt_005.png using Guid(589c037238616aa41bfc2819d1e57659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8d92463c4ed5eae5e620db5b2305633f') in 0.044098 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/TIletsets/Inferno/Ground_10.asset
-  artifactKey: Guid(586e62a36051fa644bf452279e491be3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TIletsets/Inferno/Ground_10.asset using Guid(586e62a36051fa644bf452279e491be3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8ea5cd8aa40a809f0f5496dca0594418') in 0.764135 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Sprites/Characters/png/1/walk/1_police_Walk_007.png
-  artifactKey: Guid(67596d914d5b9484dbbe2e2d51b19019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/walk/1_police_Walk_007.png using Guid(67596d914d5b9484dbbe2e2d51b19019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6a4785cf4efef425b5d9158ec93f955f') in 0.065603 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000074 seconds.
-  path: Assets/Sprites/Tilesets/Collectable Object/Chest_01_Locked.png
-  artifactKey: Guid(3bf27eac86eed9549a074f1f93094b16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Collectable Object/Chest_01_Locked.png using Guid(3bf27eac86eed9549a074f1f93094b16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '67e0cf409264903386d011fd4e90b57f') in 0.912494 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Bridge_01.png
-  artifactKey: Guid(b072ed12eb890504f850c39aeb323e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Bridge_01.png using Guid(b072ed12eb890504f850c39aeb323e79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e43e76c54f7d97a13db4d91dcbb0ad7a') in 0.083467 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/TIletsets/Inferno/Ground_03.asset
-  artifactKey: Guid(5e5d87bf83a01a24d9880b93e240aa13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TIletsets/Inferno/Ground_03.asset using Guid(5e5d87bf83a01a24d9880b93e240aa13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9ef93253982c1a66ad57d7e03af0f618') in 0.295902 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/Characters/png/1/run/1_police_Run_002.png
-  artifactKey: Guid(287b2277ad6f7774ba5cbdf0d63932d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/run/1_police_Run_002.png using Guid(287b2277ad6f7774ba5cbdf0d63932d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '85dabb7552f35e7f2ec7ba7bc5023247') in 0.032170 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Sprites/Characters/png/1/run/1_police_Run_000.png
-  artifactKey: Guid(6e879adc63e6fc547a2fb7e3bab1f250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/run/1_police_Run_000.png using Guid(6e879adc63e6fc547a2fb7e3bab1f250) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '902edcc7a88791b19bbeb0fd029a6a02') in 0.035111 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Ground-Additional_05.png
-  artifactKey: Guid(ba175ff3e04ed1246b58b5c502c622f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Ground-Additional_05.png using Guid(ba175ff3e04ed1246b58b5c502c622f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b9f13abb46728cc08e8c47f717776831') in 0.347665 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Characters/png/1/hurt/1_police_Hurt_004.png
-  artifactKey: Guid(91ebc212ea613634a914f289c07bf431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/hurt/1_police_Hurt_004.png using Guid(91ebc212ea613634a914f289c07bf431) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2fee117a68e4958173c2e80d6bff0541') in 0.040952 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sprites/Characters/png/1/idle/1_police_Idle_002.png
-  artifactKey: Guid(20708bdd493c36646bb468f71d9a4100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/idle/1_police_Idle_002.png using Guid(20708bdd493c36646bb468f71d9a4100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0b51a4a35a9b3553fa0bf2e246213082') in 0.036057 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000043 seconds.
-  path: Assets/Sprites/Characters/png/1/idle/1_police_Idle_005.png
-  artifactKey: Guid(21fa1307446bb5c42a1fdc7610cbb661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/idle/1_police_Idle_005.png using Guid(21fa1307446bb5c42a1fdc7610cbb661) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7319e3c8904ec3aea0fbdc437d779ca0') in 0.034479 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Characters/png/1/walk/1_police_Walk_003.png
-  artifactKey: Guid(1664ee11c1bb2f341908965dd76d7412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/walk/1_police_Walk_003.png using Guid(1664ee11c1bb2f341908965dd76d7412) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b96e79367ac685d52318f67d95ba4417') in 0.695310 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Characters/png/2/attack2/2_police_attack_Attack2_004.png
-  artifactKey: Guid(ea1037b71f9a8564cb54a21403e7f320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/attack2/2_police_attack_Attack2_004.png using Guid(ea1037b71f9a8564cb54a21403e7f320) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ef867221425d0de1efc573c1a82d1809') in 0.035956 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/Sprites/Characters/png/2/idle/2_police_Idle_005.png
-  artifactKey: Guid(99d68a4f44d7a764483502b229601448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/idle/2_police_Idle_005.png using Guid(99d68a4f44d7a764483502b229601448) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd416ec9f5cdff0ad9d336060d75c1988') in 0.063792 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Characters/png/2/attack1/2_police_attack_Attack1_002.png
-  artifactKey: Guid(ad3700f58073d40489a326eca501a2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/attack1/2_police_attack_Attack1_002.png using Guid(ad3700f58073d40489a326eca501a2ac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '6561855187a25a8a704ebe09c8d03ed2') in 0.045815 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Sprites/Characters/png/2/jump/2_police_Jump_007.png
-  artifactKey: Guid(489e8563fda69f5449b4af38bfe1d9fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/jump/2_police_Jump_007.png using Guid(489e8563fda69f5449b4af38bfe1d9fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '534d2a6aa5eb5207671b9838987b67c0') in 0.042278 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000063 seconds.
-  path: Assets/Sprites/Characters/png/2/attack1/2_police_attack_Attack1_008.png
-  artifactKey: Guid(5a4e2fe006f095047a3eb1e957aa873a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/attack1/2_police_attack_Attack1_008.png using Guid(5a4e2fe006f095047a3eb1e957aa873a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '03a48cc37d86d96ae1ae4f625db9f698') in 0.057719 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Sprites/Characters/png/2/run/2_police_Run_004.png
-  artifactKey: Guid(384b100a48659db4a94e906a65a92f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/run/2_police_Run_004.png using Guid(384b100a48659db4a94e906a65a92f88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd4a2ac9bdbc92220810ce1c27114c412') in 0.042062 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Sprites/Characters/png/2/walk/2_police_Walk_002.png
-  artifactKey: Guid(ba541fba085fe4f41bb3b27f4eed0100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/walk/2_police_Walk_002.png using Guid(ba541fba085fe4f41bb3b27f4eed0100) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e373dd18be3d8cdb251f7b5db45de16c') in 0.061798 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000070 seconds.
-  path: Assets/Sprites/Characters/png/2/jump/2_police_Jump_002.png
-  artifactKey: Guid(6beb521a127a43f448922663f3bbb726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/jump/2_police_Jump_002.png using Guid(6beb521a127a43f448922663f3bbb726) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '0294b8ebe85a58a6972f6cbd31d50f27') in 0.056885 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Characters/png/3/attack1/3_police_attack_Attack1_002.png
-  artifactKey: Guid(65563b8a8e1573240ba8b9cac0714ef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/attack1/3_police_attack_Attack1_002.png using Guid(65563b8a8e1573240ba8b9cac0714ef9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e1980a3d314cc153fb7cc143ccd74a3c') in 0.047198 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sprites/Characters/png/3/attack1/3_police_attack_Attack1_007.png
-  artifactKey: Guid(6916868a63033534cb51d59f52d2af17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/attack1/3_police_attack_Attack1_007.png using Guid(6916868a63033534cb51d59f52d2af17) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '22529e2586bb95762ead2c08f934d01c') in 0.056998 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprites/Characters/png/3/attack1/3_police_attack_Attack1_004.png
-  artifactKey: Guid(64e5e32424567924785cddd0dfe16a07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/attack1/3_police_attack_Attack1_004.png using Guid(64e5e32424567924785cddd0dfe16a07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7395843f045b650f3a537673360bd229') in 0.058995 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Sprites/Characters/png/2/idle/2_police_Idle_001.png
-  artifactKey: Guid(d6acbb991f08cfd42a9cd4287751da63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/idle/2_police_Idle_001.png using Guid(d6acbb991f08cfd42a9cd4287751da63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a8a6d40b2fd7aed9dd5c314c7022d1c9') in 0.053034 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Sprites/Characters/png/3/attack/3_police_attack_Attack_003.png
-  artifactKey: Guid(7f298f750788ceb4fb5c1c901a008e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/attack/3_police_attack_Attack_003.png using Guid(7f298f750788ceb4fb5c1c901a008e77) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'e7d2ba2b7d92e2b5c1d93654481cf55e') in 0.057965 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Sprites/Characters/png/2/jump/2_police_Jump_004.png
-  artifactKey: Guid(2b2daef3d1754a44d9cf846eea835508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/jump/2_police_Jump_004.png using Guid(2b2daef3d1754a44d9cf846eea835508) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7fb340434a6a59250728063dd3b1cb54') in 0.058813 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Characters/png/2/hurt/2_police_Hurt_008.png
-  artifactKey: Guid(23d5b45af0969564f8294a883b694b3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/hurt/2_police_Hurt_008.png using Guid(23d5b45af0969564f8294a883b694b3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '130b1582b81cc5daf02b8aa742cc13f0') in 0.063189 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Sprites/Characters/png/2/attack1/2_police_attack_Attack1_009.png
-  artifactKey: Guid(3ae6319e05848384488c955beefb7177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/attack1/2_police_attack_Attack1_009.png using Guid(3ae6319e05848384488c955beefb7177) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c432299fac4e70c7eb0c3f5949f1eb94') in 0.080862 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Sprites/Characters/png/3/hurt/3_police_Hurt_001.png
-  artifactKey: Guid(bd6d395c51df30f4fb1c7e14f1692b5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/hurt/3_police_Hurt_001.png using Guid(bd6d395c51df30f4fb1c7e14f1692b5e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8cc9936b1bb1622481d56fcbe7a54aaf') in 0.061432 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Sprites/Characters/png/3/attack3/3_police_attack_Attack3_005.png
-  artifactKey: Guid(11b102e7f65963140b04942b0003bc9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/attack3/3_police_attack_Attack3_005.png using Guid(11b102e7f65963140b04942b0003bc9a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c35d5772a98b7b9872b4ca935801e51e') in 0.070982 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000072 seconds.
-  path: Assets/Sprites/Characters/png/3/hurt/3_police_Hurt_007.png
-  artifactKey: Guid(e1b4fb2c5d7a74f4497e23af4562ca6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/hurt/3_police_Hurt_007.png using Guid(e1b4fb2c5d7a74f4497e23af4562ca6e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '5e34c35ec779076d067e93d5dd6b1c13') in 0.053343 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Sprites/Characters/png/3/hurt/3_police_Hurt_006.png
-  artifactKey: Guid(48d4210d0a6051d45a2786435953875e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/hurt/3_police_Hurt_006.png using Guid(48d4210d0a6051d45a2786435953875e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f3f504f2bf37409ea0d891d91d93fedf') in 0.057340 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/Sprites/Characters/png/3/hurt/3_police_Hurt_002.png
-  artifactKey: Guid(5aa14ca8632bbb2439cf332af4cdacfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/hurt/3_police_Hurt_002.png using Guid(5aa14ca8632bbb2439cf332af4cdacfd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ce06a5004d918fde7b213bab73f5be6a') in 0.042273 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/TIletsets/Platformer.prefab
-  artifactKey: Guid(14e613b6cad0f7f43b0ec5e5736f67bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/TIletsets/Platformer.prefab using Guid(14e613b6cad0f7f43b0ec5e5736f67bc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '7422dda8f9e4fba2e858f67f0914b528') in 0.685763 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000077 seconds.
-  path: Assets/Sprites/Tilesets/Environment/Sign_02.png
-  artifactKey: Guid(9c2c2f59a4a83174b9d512ba584327b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Environment/Sign_02.png using Guid(9c2c2f59a4a83174b9d512ba584327b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'd0b6b15dbec4f4b293150b37c752543c') in 0.403535 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Sprites/Characters/png/1/attack3/1_police_attack_Attack3_003.png
-  artifactKey: Guid(061df002e0d624142bf4b7ad14f424b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/attack3/1_police_attack_Attack3_003.png using Guid(061df002e0d624142bf4b7ad14f424b8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'fd252878eda2dd24756b365ceb395662') in 0.059689 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Sprites/Characters/png/1/hurt/1_police_Hurt_008.png
-  artifactKey: Guid(2ee2214e113b54b4398108d59764bdb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/hurt/1_police_Hurt_008.png using Guid(2ee2214e113b54b4398108d59764bdb5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '789e3e61303e55a1238b8f86873ab818') in 0.030861 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000056 seconds.
-  path: Assets/Sprites/Characters/png/1/run/1_police_Run_001.png
-  artifactKey: Guid(e3a4c4d591577af458e775a361eee184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/run/1_police_Run_001.png using Guid(e3a4c4d591577af458e775a361eee184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '79af2c17f6c115c6fab599499000730b') in 0.043992 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/Characters/png/3/attack2/3_police_attack_Attack2_001.png
-  artifactKey: Guid(451a7bdf3cff389458adbed800d5312f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/attack2/3_police_attack_Attack2_001.png using Guid(451a7bdf3cff389458adbed800d5312f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9ce75332335a92964579b816de00c158') in 0.034120 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Sprites/Tilesets/Background/Background_01.png
-  artifactKey: Guid(44e60811a6fd51740af95c0a66ae4479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Background/Background_01.png using Guid(44e60811a6fd51740af95c0a66ae4479) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'b0b3729995dbcd97d5380f34ced6510f') in 0.038536 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Sprites/Characters/png/1/attack3/1_police_attack_Attack3_000.png
-  artifactKey: Guid(ca80dde238742cf42b3e08937a4c4e4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/attack3/1_police_attack_Attack3_000.png using Guid(ca80dde238742cf42b3e08937a4c4e4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '9fa00dba4c6915812aea6f21f6d9b1f9') in 0.045803 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000059 seconds.
-  path: Assets/Sprites/Characters/png/2/hurt/2_police_Hurt_001.png
-  artifactKey: Guid(4a4ccaf7fb99d5c48a35e7128ae0f108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/hurt/2_police_Hurt_001.png using Guid(4a4ccaf7fb99d5c48a35e7128ae0f108) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '943ea3cb1a2ed5ceb684e98b1df1576b') in 0.056756 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Sprites/Characters/png/2/walk/2_police_Walk_003.png
-  artifactKey: Guid(5de6e62066e45184eb35ba10ec46b5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/2/walk/2_police_Walk_003.png using Guid(5de6e62066e45184eb35ba10ec46b5c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '84947e2fb2e2ef802fe806df84772427') in 0.044339 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Sprites/Tilesets/Environment/Sign_03.png
-  artifactKey: Guid(02a32904702e17d47aa61e0fc9aa118c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Environment/Sign_03.png using Guid(02a32904702e17d47aa61e0fc9aa118c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '8a895273b5353b67f2bfbce2f1d0a487') in 0.129482 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/Sprites/Tilesets/Environment/Shield.png
-  artifactKey: Guid(3d597750c54bd3a4292b673d02cf03e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Environment/Shield.png using Guid(3d597750c54bd3a4292b673d02cf03e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '2b8a51d0b55627b6b2415a3a925ee2d5') in 0.321909 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Bridge_02.png
-  artifactKey: Guid(0253a939e24df3841b8fb88c1d08ecb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Bridge_02.png using Guid(0253a939e24df3841b8fb88c1d08ecb3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '42e6eb0fc34ee44d28a351e80ca5e209') in 0.321682 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Sprites/Characters/png/1/idle/1_police_Idle_000.png
-  artifactKey: Guid(3913b3c83c203ba4ab7cf04906094c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/1/idle/1_police_Idle_000.png using Guid(3913b3c83c203ba4ab7cf04906094c0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '54779068fc15dba0784ed16cdb8bb173') in 0.437399 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Ground_13.png
-  artifactKey: Guid(a20e3cf8ae0f0424290b938946582c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Ground_13.png using Guid(a20e3cf8ae0f0424290b938946582c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ebe1e2b114255de33e6ce11722383ffc') in 0.084559 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000064 seconds.
-  path: Assets/Sprites/Tilesets/Platformer/Ground-Additional_02.png
-  artifactKey: Guid(cabce3b167359984193cf6d6d055363c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Tilesets/Platformer/Ground-Additional_02.png using Guid(cabce3b167359984193cf6d6d055363c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'c6d7a18d76925c41b1ebd7efb593ec44') in 1.160300 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/Sprites/Characters/png/3/attack/3_police_attack_Attack_005.png
-  artifactKey: Guid(8e22105c549f4044d80e7318dbe335b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/attack/3_police_attack_Attack_005.png using Guid(8e22105c549f4044d80e7318dbe335b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'f75ef9d143a10b49b548bea1168752a3') in 0.030513 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 5.811117 seconds.
-  path: Assets/Sprites/Characters/png/3/idle/3_police_Idle_007.png
-  artifactKey: Guid(6a2cc454194557644a2c509bacb660ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/idle/3_police_Idle_007.png using Guid(6a2cc454194557644a2c509bacb660ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '56e0e2102ac143a2d0d67097c09e5609') in 0.115091 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/Sprites/Characters/png/3/jump/3_police_Jump_007.png
-  artifactKey: Guid(ab24150d62d0ee7438452e43202e0968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/jump/3_police_Jump_007.png using Guid(ab24150d62d0ee7438452e43202e0968) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'ce69800043e8df428b89b5dc590020c8') in 0.126833 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000054 seconds.
-  path: Assets/Sprites/Characters/png/3/jump/3_police_Jump_001.png
-  artifactKey: Guid(6cc8bba25939eb74bb24351a7d39e4fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/jump/3_police_Jump_001.png using Guid(6cc8bba25939eb74bb24351a7d39e4fe) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '04624537c0b8775230e7bcfc075c8942') in 0.368017 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.000084 seconds.
-  path: Assets/Sprites/Characters/png/3/walk/3_police_Walk_000.png
-  artifactKey: Guid(1df5c469a6814d4479744991f971abb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/walk/3_police_Walk_000.png using Guid(1df5c469a6814d4479744991f971abb7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: '36e6b123077c7134d20f235e1959f8f3') in 0.373209 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.017545 seconds.
-  path: Assets/Sprites/Characters/png/3/jump/3_police_Jump_006.png
-  artifactKey: Guid(625ea8ccb4530964b99eef01dd69b643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/jump/3_police_Jump_006.png using Guid(625ea8ccb4530964b99eef01dd69b643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'a71e193dd4251cdeb294515f835b4694') in 0.359615 seconds 
-Number of asset objects unloaded after import = 3
-========================================================================
-Received Import Request.
-  Time since last request: 0.003081 seconds.
-  path: Assets/Sprites/Characters/png/3/walk/3_police_Walk_007.png
-  artifactKey: Guid(3e0760f50328407428826f9455fdd93b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
-Number of updated assets reloaded before import = 0
-Start importing Assets/Sprites/Characters/png/3/walk/3_police_Walk_007.png using Guid(3e0760f50328407428826f9455fdd93b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
- -> (artifact id: 'db025b8fef54f68222d5736ba9fb72ef') in 0.784124 seconds 
-Number of asset objects unloaded after import = 3
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004751 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.035 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3036ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2612ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (484ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (1409ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (148ms)
+				ProcessInitializeOnLoadAttributes (1086ms)
+				ProcessInitializeOnLoadMethodAttributes (153ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5755.
+Memory consumption went from 199.3 MB to 198.6 MB.
+Total: 20.901900 ms (FindLiveObjects: 0.615600 ms CreateObjectMapping: 0.814100 ms MarkObjects: 19.011400 ms  DeleteObjects: 0.458700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005049 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.65 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+System.Exception: Error! Visual Scripting: couldn't find visual scripting package
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in E:\Descargas\ProyectoG6\ProyectoG6\Library\PackageCache\com.unity.visualscripting@1.9.1\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  3.423 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3425ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (59ms)
+		EndReloadAssembly (3030ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (626ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (172ms)
+			SetupLoadedEditorAssemblies (1470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (139ms)
+				ProcessInitializeOnLoadAttributes (1138ms)
+				ProcessInitializeOnLoadMethodAttributes (161ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.02 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5166 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 5759.
+Memory consumption went from 199.4 MB to 198.7 MB.
+Total: 20.353800 ms (FindLiveObjects: 0.642600 ms CreateObjectMapping: 0.888200 ms MarkObjects: 18.287200 ms  DeleteObjects: 0.534500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

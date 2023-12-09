@@ -17,7 +17,7 @@ public class EnemyController : MonoBehaviour
 
             if (contactPoint.y < -0.9)
             {
-                Character2Dcontroller.Instance.Rebound();
+                Character2DController.Instance.Rebound();
 
                 Destroy(gameObject);
             }
