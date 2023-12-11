@@ -23,9 +23,10 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
+                HealthController controller = other.collider.GetComponent<HealthController>();
+                controller.TakeDamage(damage, other.GetContact(0).normal);
 
 
-                
             }
         }
     
